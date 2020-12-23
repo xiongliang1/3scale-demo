@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/tt/{id}")
     public String hello(@PathVariable( value = "id") String id){
-        return  "this is a test....my host....######.....马瑞泽天空"+ id;
+        return  "this is a test....my host....######.....马瑞泽天空1"+ id;
     }
 
 
